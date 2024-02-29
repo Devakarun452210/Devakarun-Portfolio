@@ -1,0 +1,123 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 10px;
+}
+.hero .profilePic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../img/herobg.png");
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hero .profilePic img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (max-width: 460px) {
+  .hero .profilePic img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .hero .profilePic {
+    width: 100%;
+  }
+}
+.hero .profileDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}
+.hero .profileDetails .top {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-family: "Ubuntu", sans-serif;
+  margin: 20px 0px;
+}
+.hero .profileDetails .top .name {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
+  color: var(--color-red);
+}
+.hero .profileDetails .top .designation {
+  font-size: 45px;
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
+  color: #111;
+}
+.hero .profileDetails .middle {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero .profileDetails .middle .hireArrow {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px;
+  color: #fff;
+  background-color: var(--color-red);
+  margin-right: 5px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+.hero .profileDetails .middle p a {
+  text-decoration: none;
+  color: #111;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.hero .profileDetails .middle p a:hover {
+  color: var(--color-blue);
+}
+.hero .profileDetails .middle img {
+  width: 80px;
+  transform: rotate(326deg);
+  margin-top: -25px;
+}
+.hero .profileDetails .bottom {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 20px 0px;
+}
+@media screen and (max-width: 1116px) {
+  .hero .profileDetails .bottom {
+    justify-content: center;
+  }
+}
+.hero .profileDetails .bottom a {
+  text-decoration: none;
+}
+.hero .profileDetails .bottom a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--color-blue);
+  color: var(--color-blue);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.hero .profileDetails .bottom a i:hover {
+  color: var(--color-yellow);
+  border: 1px solid var(--color-yellow);
+}
+.hero .profileDetails hr {
+  height: 0;
+  border: 0.1px solid rgb(235, 235, 235);
+  margin: 30px 0px;
+}/*# sourceMappingURL=Hero.css.map */

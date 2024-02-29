@@ -1,0 +1,35 @@
+.about {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 10px;
+  padding-left: 20px;
+  margin: 30px 0px;
+}
+@media screen and (max-width: 800px) {
+  .about {
+    flex-direction: column-reverse;
+    padding: 10px;
+    padding-left: 10px;
+  }
+}
+.about .details p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.8;
+  text-align: justify;
+}
+.about .details p::first-letter {
+  margin-left: 10px;
+  font-size: 20px;
+}
+.about .profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 460px) {
+  .about .profile img {
+    width: 80%;
+  }
+}/*# sourceMappingURL=About.css.map */
