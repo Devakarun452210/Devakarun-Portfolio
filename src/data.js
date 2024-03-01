@@ -18,6 +18,10 @@ import SpaceXClone from "./img/projects/SpaceXClone.png";
 import TeslaClone from "./img/projects/TeslaClone.png";
 import YoutubeClone from "./img/projects/YoutubeClone.png";
 import rolex from "./img/projects/rolex.png";
+import cyclecircle from "./img/projects/cyclecircle.png";
+import saasproduct from "./img/projects/saasproduct.jpg";
+import stream from "./img/projects/stream.jpg";
+
 
 export const projects = [
   {
@@ -54,7 +58,7 @@ export const projects = [
       stack1: "Reactjs",
       stack2: "Scss",
     },
-    cat: "UI/UX",
+    cat: "Frontend",
   },
   {
     id: 4,
@@ -66,7 +70,7 @@ export const projects = [
       stack1: "Reactjs",
       stack2: "Scss",
     },
-    cat: "UI/UX",
+    cat: "Frontend",
   },
   {
     id: 5,
@@ -78,7 +82,7 @@ export const projects = [
       stack1: "Reactjs",
       stack2: "Scss",
     },
-    cat: "UI/UX",
+    cat: "Frontend",
   },
   {
     id: 6,
@@ -90,7 +94,7 @@ export const projects = [
       stack1: "HTML & CSS",
       stack2: "JS",
     },
-    cat: "UI/UX",
+    cat: "Frontend",
   },
   {
     id: 7,
@@ -102,7 +106,7 @@ export const projects = [
       stack1: "HTML & CSS",
       stack2: "JS",
     },
-    cat: "UI/UX",
+    cat: "Frontend",
   },
 
   {
@@ -115,7 +119,7 @@ export const projects = [
       stack1: "Reactjs",
       stack2: "Scss",
     },
-    cat: "UI/UX",
+    cat: "Frontend",
   },
   {
     id: 9,
@@ -127,7 +131,7 @@ export const projects = [
       stack1: "HTML & CSS",
       stack2: "JS",
     },
-    cat: "UI/UX",
+    cat: "Frontend",
   },
   {
     id: 10,
@@ -139,7 +143,7 @@ export const projects = [
       stack1: "Reactjs",
       stack2: "Scss",
     },
-    cat: "UI/UX",
+    cat: "Frontend",
   },
   {
     id: 11,
@@ -151,7 +155,7 @@ export const projects = [
       stack1: "Reactjs",
       stack2: "Scss",
     },
-    cat: "UI/UX",
+    cat: "Frontend",
   },
   {
     id: 12,
@@ -163,7 +167,7 @@ export const projects = [
       stack1: "Reactjs",
       stack2: "Scss",
     },
-    cat: "UI/UX",
+    cat: "Frontend",
   },
   {
     id: 13,
@@ -175,7 +179,7 @@ export const projects = [
       stack1: "HTML & CSS",
       stack2: "JS",
     },
-    cat: "UI/UX",
+    cat: "Frontend",
   },
   {
     id: 14,
@@ -187,7 +191,7 @@ export const projects = [
       stack1: "Reactjs",
       stack2: "Scss",
     },
-    cat: "UI/UX",
+    cat: "Frontend",
   },
 
   {
@@ -200,7 +204,7 @@ export const projects = [
       stack1: "Reactjs",
       stack2: "Scss",
     },
-    cat: "UI/UX",
+    cat: "Frontend",
   },
   {
     id: 16,
@@ -212,7 +216,7 @@ export const projects = [
       stack1: "Reactjs",
       stack2: "Scss",
     },
-    cat: "UI/UX",
+    cat: "Frontend",
   },
 
   {
@@ -225,7 +229,7 @@ export const projects = [
       stack1: "HTML & CSS",
       stack2: "JS",
     },
-    cat: "UI/UX",
+    cat: "Frontend",
   },
   {
     id: 18,
@@ -237,7 +241,7 @@ export const projects = [
       stack1: "Reactjs",
       stack2: "Scss",
     },
-    cat: "UI/UX",
+    cat: "Frontend",
   },
 
   {
@@ -250,7 +254,7 @@ export const projects = [
       stack1: "HTML & CSS",
       stack2: "JS",
     },
-    cat: "UI/UX",
+    cat: "Frontend",
   },
   {
     id: 20,
@@ -261,6 +265,42 @@ export const projects = [
     stacks: {
       stack1: "HTML & CSS",
       stack2: "JS",
+    },
+    cat: "Frontend",
+  },
+  {
+    id: 21,
+    img: cyclecircle,
+    title: "Cycle Circle",
+    desc: "",
+    link: "https://www.behance.net/gallery/190069555/UIUX-Case-Study",
+    stacks: {
+      stack1: "Figma",
+      stack2: "Google Forms",
+    },
+    cat: "UI/UX",
+  },
+  {
+    id: 22,
+    img: saasproduct,
+    title: "AI SaaS Product",
+    desc: "",
+    link: "https://www.behance.net/gallery/191967699/AI-SaaS-Product-UIUX-Case-study",
+    stacks: {
+      stack1: "Figma",
+      stack2: "Google Forms",
+    },
+    cat: "UI/UX",
+  },
+  {
+    id: 23,
+    img: stream,
+    title: "Game Live Streaming App",
+    desc: "",
+    link: "https://www.behance.net/gallery/190577439/Streaming-App-UI",
+    stacks: {
+      stack1: "Figma",
+      stack2: "Google Forms",
     },
     cat: "UI/UX",
   },
