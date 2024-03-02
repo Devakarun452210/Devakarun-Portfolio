@@ -18,7 +18,7 @@ const Hero = () => {
           <p>
             <a
               target="blank"
-              href="https://drive.google.com/file/d/1_-uz5TeauPhqyCS6-8yjbl1hvYtppL38/view?usp=sharing"
+              href="https://drive.google.com/file/d/1XhrsYD1S2qAvaOn7WGLC8XwlpY_jr5jz/view?usp=sharing"
             >
               Download Resume
             </a>
