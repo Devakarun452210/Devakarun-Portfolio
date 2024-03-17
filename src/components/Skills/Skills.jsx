@@ -3,7 +3,7 @@ import html from "../../img/skills/html-5.png";
 import css from "../../img/skills/css-3.png";
 import js from "../../img/skills/js.png";
 import react from "../../img/skills/react.png";
-import sass from "../../img/skills/sass.png";
+import sass from "../../img/skills/notion.webp";
 import figma from "../../img/skills/figma.png";
 
 const Skills = () => {
@@ -26,7 +26,7 @@ const Skills = () => {
           <img src={react} alt="" className="react" />
         </div>
         <div className="logo">
-          <img src={sass} alt="" className="tail" />
+          <img src={sass} alt="" className="not" />
         </div>
       </div>
     </div>
